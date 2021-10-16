@@ -1,0 +1,15 @@
+header > .wrapper {
+  width: 1800px;
+  margin: 0 auto;
+}
+main > .wrapper {
+  width: 1800px;
+  height: 700px;
+  background-color: #de0100;
+  margin: 0 auto;
+}
+main > .wrapper > img {
+  float: left;
+  width: 800px;
+  height: 700px;
+}

@@ -1,0 +1,12 @@
+[
+  { "src": "imgs/3-1.jpg", "alt": "small" },
+  { "src": "imgs/3-1-1.jpg", "alt": "details-1" },
+  { "src": "imgs/3-2.jpg", "alt": "small" },
+  { "src": "imgs/3-2-1.jpg", "alt": "details-1" },
+  { "src": "imgs/3-3.jpg", "alt": "small" },
+  { "src": "imgs/3-3-1.jpg", "alt": "details-1" },
+  { "src": "imgs/3-4.jpg", "alt": "small" },
+  { "src": "imgs/3-4-1.jpg", "alt": "details-1" },
+  { "src": "imgs/3-5.jpg", "alt": "small" },
+  { "src": "imgs/3-5-1.jpg", "alt": "details-1" }
+]

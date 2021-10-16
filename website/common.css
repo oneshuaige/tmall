@@ -1,0 +1,412 @@
+header > .first {
+  font-size: 14px;
+  position: absolute;
+  top: -5px;
+  height: 33px;
+  line-height: 33px;
+  width: 100%;
+  margin: 5px auto;
+  background-color: #f2f2f2;
+}
+header > .first > .wrapper {
+  width: 1200px;
+}
+header > .first > .wrapper > .left {
+  text-align: center;
+}
+header > .first > .wrapper > .left > li {
+  color: #999999;
+  float: left;
+  margin: 0 10px;
+}
+header > .first > .wrapper > .left > li > a {
+  color: #999999;
+}
+header > .first > .wrapper > .left > li > a:hover {
+  color: red;
+}
+header > .first > .wrapper > .right {
+  text-align: center;
+  display: flex;
+  justify-content: flex-end;
+}
+header > .first > .wrapper > .right > li > a {
+  color: #999999;
+}
+header > .first > .wrapper > .right > .wodetaobao {
+  position: relative;
+  width: 80px;
+  height: 32px;
+}
+header > .first > .wrapper > .right > .wodetaobao > ul {
+  width: 100px;
+  display: none;
+  position: absolute;
+  top: 32px;
+  background-color: #fff;
+  z-index: 20;
+  border: 1px solid rgba(238, 238, 238);
+  border-top: 0;
+}
+header > .first > .wrapper > .right > .wodetaobao > ul > li > a {
+  text-decoration: none;
+  color: gray;
+}
+header > .first > .wrapper > .right > .wodetaobao > ul > li > a:hover {
+  text-decoration: underline;
+  color: red;
+}
+header > .first > .wrapper > .right > .wodetaobao > a > .b {
+  width: 0px;
+  height: 0px;
+  border: 4px solid transparent;
+  border-top-color: #b2b2b2;
+  border-bottom: none;
+  position: absolute;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  top: 15px;
+}
+header > .first > .wrapper > .right > .wodetaobao:hover {
+  background-color: #fff;
+}
+header > .first > .wrapper > .right > .wodetaobao:hover > ul {
+  display: block;
+}
+header > .first > .wrapper > .right > .wodetaobao:hover > a {
+  text-decoration: underline;
+}
+header > .first > .wrapper > .right > .wodetaobao:hover > a > .b {
+  transition: transform 0.2s ease-in;
+  transform: rotate(180deg);
+  transform-origin: 50% 30%;
+}
+header > .first > .wrapper > .right > .shoucangjia {
+  position: relative;
+  width: 80px;
+  height: 32px;
+}
+header > .first > .wrapper > .right > .shoucangjia > ul {
+  width: 100px;
+  display: none;
+  position: absolute;
+  top: 32px;
+  background-color: #fff;
+  z-index: 20;
+  border: 1px solid rgba(238, 238, 238);
+  border-top: 0;
+}
+header > .first > .wrapper > .right > .shoucangjia > ul > li > a {
+  text-decoration: none;
+  color: gray;
+}
+header > .first > .wrapper > .right > .shoucangjia > ul > li > a:hover {
+  text-decoration: underline;
+  color: red;
+}
+header > .first > .wrapper > .right > .shoucangjia > a > .b {
+  width: 0px;
+  height: 0px;
+  border: 4px solid transparent;
+  border-top-color: #b2b2b2;
+  border-bottom: none;
+  position: absolute;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  top: 15px;
+}
+header > .first > .wrapper > .right > .shoucangjia:hover {
+  background-color: #fff;
+}
+header > .first > .wrapper > .right > .shoucangjia:hover > ul {
+  display: block;
+}
+header > .first > .wrapper > .right > .shoucangjia:hover > a {
+  text-decoration: underline;
+}
+header > .first > .wrapper > .right > .shoucangjia:hover a > .b {
+  transition: transform 0.2s ease-in;
+  transform: rotate(180deg);
+  transform-origin: 50% 30%;
+}
+header > .first > .wrapper > .right > .shoujiban {
+  position: relative;
+}
+header > .first > .wrapper > .right > .shoujiban > a {
+  padding-left: 10px;
+  border-left: 1px solid #999;
+}
+header > .first > .wrapper > .right > .shoujiban > .b {
+  display: none;
+  width: 0;
+  height: 0;
+  border: 8px solid transparent;
+  border-bottom-color: white;
+  border-top: none;
+  position: absolute;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  left: 30px;
+  top: 25px;
+}
+header > .first > .wrapper > .right > .shoujiban > img {
+  display: none;
+  z-index: 20;
+  position: absolute;
+  left: -50px;
+  top: 35px;
+}
+header > .first > .wrapper > .right > .shoujiban:hover > .b {
+  display: block;
+}
+header > .first > .wrapper > .right > .shoujiban:hover > img {
+  display: block;
+}
+header > .first > .wrapper > .right > .shangjiazhichi {
+  position: relative;
+  width: 74px;
+  height: 32px;
+}
+header > .first > .wrapper > .right > .shangjiazhichi > .b {
+  width: 0;
+  height: 0;
+  border: 4px solid transparent;
+  border-top-color: #b2b2b2;
+  border-bottom: none;
+  position: absolute;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  top: 15px;
+}
+header > .first > .wrapper > .right > .shangjiazhichi > div {
+  position: absolute;
+  top: 35px;
+  right: 0px;
+  background-color: #fff;
+  z-index: 20;
+  border: 1px solid rgba(238, 238, 238);
+  border-top: 0;
+  padding: 0 10px;
+  display: none;
+}
+header > .first > .wrapper > .right > .shangjiazhichi > div > h3 {
+  color: gray;
+  font-size: 14px;
+  font-weight: 600;
+  margin-right: 75px;
+}
+header > .first > .wrapper > .right > .shangjiazhichi > div > .top1 {
+  font-size: 12px;
+  width: 122px;
+  height: 90px;
+  border-bottom: 1px dotted #000;
+}
+header > .first > .wrapper > .right > .shangjiazhichi > div > .top1 > li {
+  float: left;
+  margin: -5px 5px;
+}
+header > .first > .wrapper > .right > .shangjiazhichi > div > .top1 > li > a {
+  color: gray;
+}
+header > .first > .wrapper > .right > .shangjiazhichi > div > .top1 > li > a:hover {
+  text-decoration: underline;
+  color: red;
+}
+header > .first > .wrapper > .right > .shangjiazhichi > div > .top2 {
+  font-size: 12px;
+  width: 122px;
+  height: 50px;
+  margin-bottom: 10px;
+  border-bottom: 1px dotted #000;
+}
+header > .first > .wrapper > .right > .shangjiazhichi > div > .top2 > li {
+  float: left;
+  margin: -5px 5px;
+}
+header > .first > .wrapper > .right > .shangjiazhichi > div > .top2 > li > a {
+  color: gray;
+}
+header > .first > .wrapper > .right > .shangjiazhichi > div > .top2 > li > a:hover {
+  text-decoration: underline;
+  color: red;
+}
+header > .first > .wrapper > .right > .shangjiazhichi:hover {
+  background-color: #fff;
+}
+header > .first > .wrapper > .right > .shangjiazhichi:hover > .b {
+  transition: transform 0.2s ease-in;
+  transform: rotate(180deg);
+  transform-origin: 50% 30%;
+}
+header > .first > .wrapper > .right > .shangjiazhichi:hover > div {
+  display: block;
+}
+header > .first > .wrapper > .right > .wangzhandaohang > .b {
+  width: 0;
+  height: 0;
+  border: 4px solid transparent;
+  border-top-color: #b2b2b2;
+  border-bottom: none;
+  position: absolute;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  top: 15px;
+}
+header > .first > .wrapper > .right > .wangzhandaohang {
+  position: relative;
+}
+header > .first > .wrapper > .right > .wangzhandaohang > .bigbox {
+  display: none;
+  background-color: #fff;
+  border: 1px solid #eeeeee;
+  border-top: none;
+  z-index: 99;
+  width: 1198px;
+  position: absolute;
+  top: 33px;
+  left: -1100px;
+}
+header > .first > .wrapper > .right > .wangzhandaohang > .bigbox > .box1 {
+  margin: 10px auto;
+  border-right: 1px solid #eee;
+  float: left;
+}
+header > .first > .wrapper > .right > .wangzhandaohang > .bigbox > .box1 > h2 {
+  position: relative;
+  left: -155px;
+}
+header > .first > .wrapper > .right > .wangzhandaohang > .bigbox > .box1 > ul {
+  width: 455px;
+  overflow-wrap: nowrap;
+}
+header > .first > .wrapper > .right > .wangzhandaohang > .bigbox > .box1 > ul > li {
+  width: 90px;
+  float: left;
+}
+header > .first > .wrapper > .right > .wangzhandaohang > .bigbox > .box1 > ul > li > a {
+  color: #666;
+}
+header > .first > .wrapper > .right > .wangzhandaohang > .bigbox > .box1 > ul > li > a:hover {
+  color: #f56a00;
+  text-decoration: underline;
+}
+header > .first > .wrapper > .right > .wangzhandaohang:hover > .bigbox {
+  display: block;
+}
+header > .first > .wrapper > .right > .wangzhandaohang:hover > .b {
+  transition: transform 0.2s ease-in;
+  transform: rotate(180deg);
+  transform-origin: 50% 30%;
+}
+header > .first > .wrapper > .right > .wangzhandaohang > .bigbox > .box1 > h2 {
+  font-size: 16px;
+  font-weight: 100;
+  color: #f56a00;
+}
+header > .first > .wrapper > .right > .wangzhandaohang > .bigbox > .box2 {
+  margin: 10px auto;
+  border-right: 1px solid #eee;
+  float: left;
+}
+header > .first > .wrapper > .right > .wangzhandaohang > .bigbox > .box2 > h2 {
+  position: relative;
+  left: -140px;
+}
+header > .first > .wrapper > .right > .wangzhandaohang > .bigbox > .box2 > ul {
+  width: 455px;
+  overflow-wrap: nowrap;
+}
+header > .first > .wrapper > .right > .wangzhandaohang > .bigbox > .box2 > ul > li {
+  width: 90px;
+  float: left;
+}
+header > .first > .wrapper > .right > .wangzhandaohang > .bigbox > .box2 > ul > li > a {
+  color: #666;
+}
+header > .first > .wrapper > .right > .wangzhandaohang > .bigbox > .box2 > ul > li > a:hover {
+  color: #7da3e6;
+  text-decoration: underline;
+}
+header > .first > .wrapper > .right > .wangzhandaohang > .bigbox > .box2 > h2 {
+  font-size: 16px;
+  font-weight: 100;
+  color: #7da3e6;
+}
+header > .first > .wrapper > .right > .wangzhandaohang > .bigbox > .box3 {
+  float: left;
+}
+header > .first > .wrapper > .right > .wangzhandaohang > .bigbox > .box3 > ul {
+  margin-top: 10px;
+  width: 200px;
+}
+header > .first > .wrapper > .right > .wangzhandaohang > .bigbox > .box3 > ul > li {
+  float: left;
+  width: 95px;
+}
+header > .first > .wrapper > .right > .wangzhandaohang > .bigbox > .box3 > ul > li > a {
+  color: gray;
+}
+header > .first > .wrapper > .right > .wangzhandaohang > .bigbox > .box3 > ul > li > a:hover {
+  text-decoration: underline;
+}
+header > .first > .wrapper > .right > .wangzhandaohang > .bigbox > .box3 > h2 {
+  position: relative;
+  top: 10px;
+  font-size: 16px;
+  font-weight: 100;
+  color: #9a9a9a;
+}
+header > .first > .wrapper > .right > li {
+  margin: 0 10px;
+}
+header > .first > .wrapper > .right > li > a > img {
+  width: 16px;
+  height: 16px;
+}
+header > .first > .wrapper > .right > li > a:hover {
+  color: red;
+}
+header > .second {
+  margin-top: 33px;
+}
+header > .second > .wrapper {
+  width: 1200px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+header > .second > .wrapper > .img {
+  position: relative;
+  left: -250px;
+}
+header > .second > .wrapper > .sousuo {
+  position: relative;
+  top: 50px;
+  left: -600px;
+}
+header > .second > .wrapper > .sousuo > input {
+  width: 491px;
+  height: 36px;
+  border: 3px solid red;
+  color: gray;
+  position: absolute;
+}
+header > .second > .wrapper > .sousuo > input ~ button {
+  width: 132px;
+  height: 41px;
+  background-color: red;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  border: none;
+  position: absolute;
+  left: 497px;
+}
+header > .second > .wrapper > .sousuo > input ~ button > a {
+  color: white;
+}
+header > .second > .wrapper > .sousuo > input:focus {
+  outline-color: red;
+  border-color: red;
+}

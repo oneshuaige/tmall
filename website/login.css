@@ -1,0 +1,105 @@
+header > .wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+header > .wrapper > div {
+  height: 88px;
+  padding: 22px 0;
+}
+header > .wrapper > div > img {
+  width: 190px;
+  height: 27px;
+}
+main {
+  background-color: #dd2726;
+}
+main > .wrapper {
+  position: relative;
+  height: 600px;
+  width: 1200px;
+  margin: 0 auto;
+}
+main > .wrapper > .login {
+  width: 350px;
+  height: 404px;
+  background-color: #fff;
+  position: absolute;
+  z-index: 20;
+  top: 80px;
+  right: 100px;
+}
+main > .wrapper > .login > .qiehuan {
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 300px;
+  height: 27px;
+}
+main > .wrapper > .login > .qiehuan > li {
+  cursor: pointer;
+  margin-left: 10px;
+  float: left;
+  font-size: 18px;
+  font-weight: 600;
+}
+main > .wrapper > .login > .qiehuan > .display {
+  border-bottom: 3px solid black;
+}
+main > .wrapper > .login > div {
+  width: 300px;
+  height: 42px;
+  margin: 0 auto;
+}
+main > .wrapper > .login > div > form > .user {
+  width: 43px;
+  height: 43px;
+  position: absolute;
+  top: 88px;
+  background-color: gray;
+}
+main > .wrapper > .login > div > form > .user > img {
+  width: 40px;
+  height: 40px;
+}
+main > .wrapper > .login > div > form > .clock {
+  width: 43px;
+  height: 44px;
+  background-color: gray;
+  position: absolute;
+  top: 164px;
+}
+main > .wrapper > .login > div > form > .clock > img {
+  width: 40px;
+  height: 40px;
+}
+main > .wrapper > .login > div > form > input {
+  padding-left: 43px;
+  margin-top: 30px;
+  width: 250px;
+  height: 42px;
+}
+main > .wrapper > .login > div > form > button {
+  cursor: pointer;
+  width: 297px;
+  height: 42px;
+  background-color: #ff0036;
+  margin-left: 25px;
+  position: absolute;
+  left: 0;
+  top: 230px;
+  font-size: 18px;
+  color: white;
+}
+main > .wrapper > .login > .right-bottom {
+  padding-left: 110px;
+  position: absolute;
+  top: 270px;
+}
+main > .wrapper > .login > .right-bottom > li {
+  float: left;
+  margin: 10px 5px;
+}
+main > .wrapper > .login > .right-bottom > li > a {
+  font-size: 14px;
+  font-weight: 400;
+  color: black;
+}

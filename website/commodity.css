@@ -1,0 +1,290 @@
+main > .wrapper {
+  width: 1200px;
+  position: relative;
+}
+main > .wrapper > .logo {
+  position: absolute;
+  top: 70px;
+  width: 181px;
+  height: 45px;
+  background-image: url(img/购物车/1.png);
+}
+main > .wrapper > input {
+  width: 422px;
+  height: 35px;
+  border: 4px solid #ff5500;
+  position: absolute;
+  padding-left: 75px;
+  right: 93px;
+  top: 70px;
+  outline-color: #ff5500;
+}
+main > .wrapper > button {
+  position: absolute;
+  right: 0;
+  background-color: #ff5500;
+  width: 93px;
+  height: 43px;
+  top: 70px;
+}
+main > .wrapper > button > a {
+  font-size: 20px;
+  color: white;
+}
+main > .wrapper > select {
+  position: absolute;
+  top: 73px;
+  right: 520px;
+  width: 75px;
+  height: 37px;
+  background-color: #e2e1e1;
+  text-align: center;
+  font-size: 16px;
+  outline: none;
+}
+main > .wrapper > select > option {
+  color: #6b6b6b;
+  font-size: 16px;
+}
+main > .wrapper > ul {
+  width: 1200px;
+  position: absolute;
+  top: 150px;
+  left: -10px;
+  border-bottom: 3px solid #999999;
+  box-sizing: border-box;
+}
+main > .wrapper > ul > li {
+  float: left;
+  font-weight: 700;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+main > .wrapper > ul > li > span {
+  font-size: 20px;
+  padding-right: 30px;
+  border-right: 1px solid #666;
+  color: black;
+  cursor: pointer;
+}
+main > .wrapper > ul > .active {
+  border-bottom: 4px solid #f40;
+}
+main > .wrapper > ul > .active > span {
+  color: #f40;
+}
+main > .wrapper > ul > div {
+  position: absolute;
+  right: 0;
+}
+main > .wrapper > ul > div > button {
+  background-color: #aaa;
+  width: 60px;
+  height: 30px;
+  color: white;
+  cursor: pointer;
+}
+main > .wrapper > ul > div > b {
+  color: #f40;
+}
+main > .wrapper > ul > div > span {
+  font-size: 13px;
+}
+main > .wrapper > .selectall {
+  position: absolute;
+  top: 200px;
+  right: 20px;
+  width: 1200px;
+  height: 50px;
+  display: flex;
+}
+main > .wrapper > .selectall > span {
+  position: absolute;
+  height: 50px;
+  line-height: 50px;
+  font-size: 14px;
+  margin-left: 20px;
+}
+main > .wrapper > .selectall > span > input {
+  width: 14px;
+  height: 14px;
+}
+main > .wrapper > .selectall > div {
+  height: 50px;
+  line-height: 50px;
+  position: absolute;
+  left: 170px;
+}
+main > .wrapper > .selectall > ul {
+  display: flex;
+  position: absolute;
+  right: 0;
+}
+main > .wrapper > .selectall > ul > li {
+  height: 50px;
+  line-height: 50px;
+}
+main > .wrapper > .selectall > ul > .price {
+  width: 130px;
+}
+main > .wrapper > .selectall > ul > .num {
+  width: 120px;
+}
+main > .wrapper > .selectall > ul > .sum {
+  width: 140px;
+}
+main > .wrapper > .selectall > ul > .operate {
+  width: 119px;
+}
+main > .wrapper > .shop-product > .shop {
+  position: relative;
+  top: 300px;
+}
+main > .wrapper > .shop-product > .shop > input {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+main > .wrapper > .shop-product > .shop > span {
+  margin-right: 20px;
+}
+main > .wrapper > .shop-product > .shop > img {
+  width: 20px;
+  height: 20px;
+}
+main > .wrapper > .shop-product > .product {
+  width: 1200px;
+  height: 150px;
+  background-color: #f2f2f2;
+  position: relative;
+  top: 290px;
+}
+main > .wrapper > .shop-product > .product > div {
+  padding-top: 20px;
+  margin-top: 25px;
+}
+main > .wrapper > .shop-product > .product > div > img {
+  width: 100px;
+  height: 100px;
+  margin-left: 10px;
+}
+main > .wrapper > .shop-product > .product > div > input {
+  -moz-appearance: textfield;
+  width: 18px;
+  height: 18px;
+  float: left;
+}
+main > .wrapper > .shop-product > .product > div > a {
+  font-size: 15px;
+  position: absolute;
+  top: 25px;
+  left: 140px;
+  display: block;
+  color: black;
+  width: 250px;
+  height: 42px;
+  overflow: hidden;
+}
+main > .wrapper > .shop-product > .product > div > a > span {
+  height: 42px;
+}
+main > .wrapper > .shop-product > .product > div > a:hover {
+  text-decoration: underline;
+  color: #f40;
+}
+main > .wrapper > .shop-product > .product > .right {
+  display: flex;
+  position: absolute;
+  top: 50px;
+  left: 660px;
+}
+main > .wrapper > .shop-product > .product > .right > .li1 {
+  width: 120px;
+}
+main > .wrapper > .shop-product > .product > .right > .li2 {
+  width: 120px;
+}
+main > .wrapper > .shop-product > .product > .right > .li2 > button {
+  width: 19px;
+  height: 25px;
+}
+main > .wrapper > .shop-product > .product > .right > .li2 > .minus {
+  position: absolute;
+  top: 2px;
+  right: 325px;
+}
+main > .wrapper > .shop-product > .product > .right > .li2 > input {
+  width: 41px;
+  height: 25px;
+  text-align: center;
+}
+main > .wrapper > .shop-product > .product > .right > .li3 {
+  width: 105px;
+  color: #f40;
+  font-size: 15px;
+  font-weight: 600;
+}
+main > .wrapper > .shop-product > .product > .right > .li4 {
+  width: 100px;
+}
+main > .wrapper > .shop-product > .product > .right > .li4 > ul {
+  position: relative;
+  bottom: 10px;
+}
+main > .wrapper > .shop-product > .product > .right > .li4 > ul:hover > .lili3 {
+  display: block;
+}
+main > .wrapper > .shop-product > .product > .right > .li4 > ul > li > a {
+  color: black;
+}
+main > .wrapper > .shop-product > .product > .right > .li4 > ul > li > a:hover {
+  color: #f40;
+  text-decoration: underline;
+}
+main > .wrapper > .shop-product > .product > .right > .li4 > ul > .lili3 {
+  display: none;
+}
+main > .wrapper > .fixedbottom {
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+  line-height: 50px;
+  background-color: #e5e5e5;
+  position: fixed;
+  width: 1200px;
+  bottom: 0;
+}
+main > .wrapper > .fixedbottom > .left {
+  margin-left: 10px;
+}
+main > .wrapper > .fixedbottom > .left > a {
+  margin-left: 30px;
+  color: black;
+}
+main > .wrapper > .fixedbottom > .left > a:hover {
+  color: #f40;
+  text-decoration: underline;
+}
+main > .wrapper > .fixedbottom > .left > input {
+  width: 20px;
+  height: 20px;
+}
+main > .wrapper > .fixedbottom > .right {
+  margin-right: 0;
+}
+main > .wrapper > .fixedbottom > .right > button {
+  cursor: pointer;
+  width: 120px;
+  height: 50px;
+  background-color: #b0b0b0;
+  color: white;
+  font-size: 23px;
+}
+/* input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+} */

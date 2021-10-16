@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./common.css" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="./commodity.css" />
+    <!-- <link rel="stylesheet" href="1.css" /> -->
+    <script src="./js/jquery.js"></script>
+    <script src="./js/shoppingcart.js"></script>
+    <!-- <script src="../jd.com/src/js/library/cookie.js"></script> -->
+  </head>
+  <body>
+    <header>
+      <div class="first">
+        <div class="wrapper">
+          <ul class="left">
+            <li>喵，欢迎来到天猫</li>
+            <li><a href="./login.html">请登录</a></li>
+            <li><a href="./register.html">注册</a></li>
+          </ul>
+          <ul class="right">
+            <li class="wodetaobao">
+              <a href="">我的淘宝 <span class="b"></span> </a>
+              <ul>
+                <li><a href="">已买到的宝贝</a></li>
+                <li><a href="">已卖出的宝贝</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href=""><img src="./img/小图标/购物车.png" alt="" /> 购物车</a>
+            </li>
+            <li class="shoucangjia">
+              <a href="">收藏夹 <span class="b"></span></a>
+              <ul>
+                <li><a href="">收藏的宝贝</a></li>
+                <li><a href="">收藏的店铺</a></li>
+              </ul>
+            </li>
+            <li class="shoujiban">
+              <a href=""><img src="./img/小图标/手机.png" alt="" /> 手机版</a>
+              <span class="b"></span>
+              <img src="./img/4.png" alt="" />
+              <!-- <img src="./img/2.jpg" alt="" class="img2"> -->
+            </li>
+            <li><a href="">淘宝店</a></li>
+            <li class="shangjiazhichi">
+              <a href="">商家支持</a><span class="b"></span>
+              <div class="top">
+                <h3>商家:</h3>
+                <ul class="top1">
+                  <li><a href="">商家中心</a></li>
+                  <li><a href="">天猫规则</a></li>
+                  <li><a href="">商家入驻</a></li>
+                  <li><a href="">运营服务</a></li>
+                  <li><a href="">商家品控</a></li>
+                  <li><a href="">商家工具</a></li>
+                  <li><a href="">天猫智库</a></li>
+                  <li><a href="">喵言喵语</a></li>
+                </ul>
+                <h3>帮助：</h3>
+                <ul class="top2">
+                  <li><a href="">商家服务大厅</a></li>
+                  <li><a href="">问商友</a></li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="wangzhandaohang">
+              <a href=""><img src="./img/小图标/导航.png" alt="" /> 网站导航</a
+              ><span class="b"></span>
+              <div class="bigbox">
+                <div class="box1">
+                  <h2>热点推荐 <span>Hot</span></h2>
+                  <ul>
+                    <li><a href="">天猫超市</a></li>
+                    <li><a href="">喵鲜生</a></li>
+                    <li><a href="">科技新品</a></li>
+                    <li><a href="">女装新品</a></li>
+                    <li><a href="">酷玩街</a></li>
+                    <li><a href="">内衣新品</a></li>
+                    <li><a href="">试美妆</a></li>
+                    <li><a href="">运动新品</a></li>
+                    <li><a href="">时尚先生</a></li>
+                    <li><a href="">精明妈咪</a></li>
+                    <li><a href="">吃乐会</a></li>
+                    <li><a href="">企业采购</a></li>
+                    <li><a href="">会员积分</a></li>
+                    <li><a href="">天猫国际</a></li>
+                    <li><a href="">品质频道</a></li>
+                  </ul>
+                </div>
+                <div class="box2">
+                  <h2>行业市场 <span>Market</span></h2>
+                  <ul>
+                    <li><a href="">美妆</a></li>
+                    <li><a href="">电器</a></li>
+                    <li><a href="">女装</a></li>
+                    <li><a href="">男装</a></li>
+                    <li><a href="">女鞋</a></li>
+                    <li><a href="">男鞋</a></li>
+                    <li><a href="">内衣</a></li>
+                    <li><a href="">箱包</a></li>
+                    <li><a href="">运动</a></li>
+                    <li><a href="">母婴</a></li>
+                    <li><a href="">家装</a></li>
+                    <li><a href="">医药</a></li>
+                    <li><a href="">食品</a></li>
+                    <li><a href="">配饰</a></li>
+                    <li><a href="">汽车</a></li>
+                  </ul>
+                </div>
+                <div class="box3">
+                  <h2>服务指南 <span>Help</span></h2>
+                  <ul>
+                    <li><a href="">帮助中心</a></li>
+                    <li><a href="">品质保障</a></li>
+                    <li><a href="">特色服务</a></li>
+                    <li><a href="">7天退换货</a></li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="wrapper">
+        <div class="logo"></div>
+        <input type="text" value="" />
+        <select name="宝贝" id="">
+          <option value="">宝贝</option>
+          <option value="">天猫</option>
+          <option value="">收藏</option>
+        </select>
+        <button>
+          <a href="">搜索</a>
+        </button>
+        <ul>
+          <li class="active"><span>全部商品</span></li>
+          <li><span>降价商品</span></li>
+          <li><span>库存紧张</span></li>
+          <div>
+            <span>已选商品（不含运费）</span>
+            <b>0.00</b>
+            <button type="submit">结算</button>
+          </div>
+        </ul>
+        <div class="selectall">
+          <span
+            >
+            <input
+              type="checkbox"
+              value=""
+              class="allcheck"
+              name=""
+            />全选</span
+          >
+          <div>商品信息</div>
+          <ul>
+            <li class="price">单价</li>
+            <li class="num">数量</li>
+            <li class="sum">金额</li>
+            <li class="operate">操作</li>
+          </ul>
+        </div>
+        <div class="shop-product">
+          <!-- <div class="product">
+            <div>
+              <input type="checkbox" /><img src="./${picture[0].src}" alt="" />
+              <a href=""><span>${el.title}</span></a>
+            </div>
+            <ul class="right">
+              <li class="li1">
+                <span>￥${parseFloat(el.price).toFixed(2)}</span>
+              </li>
+              <li class="li2">
+                <button class="minus">-</button
+                ><input
+                  type="text"
+                  value="${current[0].num}"
+                  class="number"
+                /><button class="plus">
+                  <span>+</span>
+                </button>
+              </li>
+              <li class="li3"></li>
+              <li class="li4">
+                <ul>
+                  <li><a href="">移入收藏夹</a></li>
+                  <li>
+                    <a
+                      href=""
+                      data-id="${
+                    el.id}"
+                      >删除</a
+                    >
+                  </li>
+                  <li class="lili3"><a href="">相似宝贝</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div> -->
+          <!-- <div class="shop-product">
+          <div class="product">
+            <div>
+              <input type="checkbox" /><img src="./img/购物车/2.jpg" alt="" />
+              <a href=""
+                ><span
+                  >DURGOD杜伽K320W/K310W蓝牙无线2.4G三双模机械键盘87键104键CHERRY静音红轴茶银轴MAC/IPAD平板专用机械键盘</span
+                ></a
+              >
+            </div>
+            <ul class="right">
+              <li class="li1">￥<span>669.00</span></li>
+              <li class="li2">
+                <button class="minus">-</button
+                ><input type="text" value="1" class="number" /><button
+                  class="plus"
+                >
+                  <span>+</span>
+                </button>
+              </li>
+              <li class="li3"></li>
+              <li class="li4">
+                <ul>
+                  <li><a href="">移入收藏夹</a></li>
+                  <li><a href="">删除</a></li>
+                  <li class="lili3"><a href="">相似宝贝</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="shop-product">
+          <div class="product">
+            <div>
+              <input type="checkbox" /><img src="./img/购物车/2.jpg" alt="" />
+              <a href=""
+                ><span
+                  >DURGOD杜伽K320W/K310W蓝牙无线2.4G三双模机械键盘87键104键CHERRY静音红轴茶银轴MAC/IPAD平板专用机械键盘</span
+                ></a
+              >
+            </div>
+            <ul class="right">
+              <li class="li1">￥<span>669.00</span></li>
+              <li class="li2">
+                <button class="minus">-</button
+                ><input type="text" value="1" class="number" /><button
+                  class="plus"
+                >
+                  <span>+</span>
+                </button>
+              </li>
+              <li class="li3"></li>
+              <li class="li4">
+                <ul>
+                  <li><a href="">移入收藏夹</a></li>
+                  <li><a href="">删除</a></li>
+                  <li class="lili3"><a href="">相似宝贝</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="shop-product">
+          <div class="product">
+            <div>
+              <input type="checkbox" /><img src="./img/购物车/3.jpg" alt="" />
+              <a href=""
+                ><span
+                  >DanielWellington正品手镯男女dw情侣开口镯欧美简约百搭时尚手环</span
+                ></a
+              >
+            </div>
+            <ul class="right">
+              <li class="li1">￥<span>246.00</span></li>
+              <li class="li2">
+                <button class="minus">-</button
+                ><input type="text" value="1" class="number" /><button
+                  class="plus"
+                >
+                  <span>+</span>
+                </button>
+              </li>
+              <li class="li3"></li>
+              <li class="li4">
+                <ul>
+                  <li><a href="">移入收藏夹</a></li>
+                  <li><a href="">删除</a></li>
+                  <li class="lili3"><a href="">相似宝贝</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div> -->
+        </div>
+        <div class="fixedbottom">
+          <div class="left">
+            <!-- <input type="checkbox" name="" class="allcheck">&nbsp;全选 -->
+          <a href="">删除</a>
+          <a href="">收入收藏夹</a>
+        </div>
+        <div class="right">
+          <span>已选商品<em></em>件</span>
+          <span>合计（不含运费 ）：</span>
+          <button>结算</button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

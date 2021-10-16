@@ -1,0 +1,464 @@
+header {
+  > .first {
+    font-size: 14px;
+    position: absolute;
+    top: -5px;
+    height: 33px;
+    line-height: 33px;
+    width: 100%;
+    // text-align: center;
+    // margin: 0 auto;
+    margin: 5px auto;
+    background-color: #f2f2f2;
+    > .wrapper {
+      width: 1200px;
+      // color: gray;
+      > .left {
+        text-align: center;
+        // display: flex;
+        // justify-content: flex-start;
+        > li {
+          color: #999999;
+          float: left;
+          margin: 0 10px;
+          > a {
+            color: #999999;
+          }
+          > a:hover {
+            color: red;
+            // background-color: #fff;
+          }
+        }
+      }
+      > .right {
+        text-align: center;
+        display: flex;
+        justify-content: flex-end;
+        > li > a {
+          color: #999999;
+        }
+        > .wodetaobao {
+          position: relative;
+          width: 80px;
+          height: 32px;
+          > ul {
+            width: 100px;
+            display: none;
+            position: absolute;
+            top: 32px;
+            background-color: #fff;
+            z-index: 20;
+            border: 1px solid rgba(238, 238, 238);
+            border-top: 0;
+            > li > a {
+              text-decoration: none;
+              color: gray;
+            }
+            > li > a:hover {
+              text-decoration: underline;
+              color: red;
+            }
+          }
+          > a > .b {
+            width: 0px;
+            height: 0px;
+            border: 4px solid transparent;
+            border-top-color: #b2b2b2;
+            border-bottom: none;
+            position: absolute;
+            border-left-color: transparent;
+            border-right-color: transparent;
+            // right: 15px;
+            top: 15px;
+          }
+        }
+        > .wodetaobao:hover {
+          background-color: #fff;
+        }
+        > .wodetaobao:hover > ul {
+          display: block;
+        }
+        > .wodetaobao:hover > a {
+          text-decoration: underline;
+        }
+        > .wodetaobao:hover > a > .b {
+          transition: transform 0.2s ease-in;
+          transform: rotate(180deg);
+          transform-origin: 50% 30%;
+        }
+        > .shoucangjia {
+          position: relative;
+          width: 80px;
+          height: 32px;
+
+          > ul {
+            width: 100px;
+            display: none;
+            position: absolute;
+            top: 32px;
+            background-color: #fff;
+            z-index: 20;
+            border: 1px solid rgba(238, 238, 238);
+            border-top: 0;
+            > li {
+              // border-right: 1px solid black;
+              > a {
+                text-decoration: none;
+                color: gray;
+                // border-right: 1px solid black;
+              }
+            }
+            > li > a:hover {
+              text-decoration: underline;
+              color: red;
+            }
+          }
+          > a > .b {
+            width: 0px;
+            height: 0px;
+            border: 4px solid transparent;
+            border-top-color: #b2b2b2;
+            border-bottom: none;
+            position: absolute;
+            border-left-color: transparent;
+            border-right-color: transparent;
+            // right: 15px;
+            top: 15px;
+          }
+        }
+        > .shoucangjia:hover {
+          background-color: #fff;
+        }
+        > .shoucangjia:hover > ul {
+          display: block;
+        }
+        > .shoucangjia:hover > a {
+          text-decoration: underline;
+        }
+        > .shoucangjia:hover a > .b {
+          transition: transform 0.2s ease-in;
+          transform: rotate(180deg);
+          transform-origin: 50% 30%;
+        }
+        > .shoujiban {
+          > a {
+            padding-left: 10px;
+            border-left: 1px solid #999;
+          }
+          position: relative;
+          // border-left: 1px solid #999;
+        }
+        > .shoujiban > .b {
+          display: none;
+          width: 0;
+          height: 0;
+          border: 8px solid transparent;
+          border-bottom-color: white;
+          border-top: none;
+          position: absolute;
+          border-left-color: transparent;
+          border-right-color: transparent;
+          left: 30px;
+          top: 25px;
+        }
+        > .shoujiban > img {
+          display: none;
+          z-index: 20;
+          position: absolute;
+          left: -50px;
+          top: 35px;
+        }
+        > .shoujiban:hover > .b {
+          display: block;
+        }
+        > .shoujiban:hover > img {
+          display: block;
+        }
+        > .shangjiazhichi {
+          position: relative;
+          width: 74px;
+          height: 32px;
+          > .b {
+            width: 0;
+            height: 0;
+            border: 4px solid transparent;
+            border-top-color: #b2b2b2;
+            border-bottom: none;
+            position: absolute;
+            border-left-color: transparent;
+            border-right-color: transparent;
+            top: 15px;
+          }
+        }
+        > .shangjiazhichi > div {
+          > h3 {
+            color: gray;
+            font-size: 14px;
+            font-weight: 600;
+            margin-right: 75px;
+          }
+          position: absolute;
+          top: 35px;
+          right: 0px;
+          background-color: #fff;
+          z-index: 20;
+          border: 1px solid rgba(238, 238, 238);
+          border-top: 0;
+          padding: 0 10px;
+          display: none;
+          > .top1 {
+            font-size: 12px;
+            width: 122px;
+            height: 90px;
+            border-bottom: 1px dotted #000;
+            > li {
+              > a {
+                color: gray;
+              }
+              > a:hover {
+                text-decoration: underline;
+                color: red;
+              }
+              float: left;
+              margin: -5px 5px;
+            }
+            // > :nth-last-child(li) {
+            //   border-bottom: dotted;
+            // }
+          }
+          > .top2 {
+            font-size: 12px;
+            width: 122px;
+            height: 50px;
+            margin-bottom: 10px;
+            border-bottom: 1px dotted #000;
+            > li {
+              > a {
+                color: gray;
+              }
+              > a:hover {
+                text-decoration: underline;
+                color: red;
+              }
+              float: left;
+              margin: -5px 5px;
+            }
+            // > :nth-last-child(li) {
+            //   border-bottom: dotted;
+            // }
+          }
+        }
+        > .shangjiazhichi:hover {
+          background-color: #fff;
+          > .b {
+            transition: transform 0.2s ease-in;
+            transform: rotate(180deg);
+            transform-origin: 50% 30%;
+          }
+        }
+        > .shangjiazhichi:hover > div {
+          display: block;
+        }
+        > .wangzhandaohang > .b {
+          width: 0;
+          height: 0;
+          border: 4px solid transparent;
+          border-top-color: #b2b2b2;
+          border-bottom: none;
+          position: absolute;
+          border-left-color: transparent;
+          border-right-color: transparent;
+          top: 15px;
+        }
+        > .wangzhandaohang {
+          position: relative;
+        }
+        > .wangzhandaohang > .bigbox {
+          display: none;
+          background-color: #fff;
+          border: 1px solid rgb(238, 238, 238);
+          border-top: none;
+          z-index: 99;
+          width: 1198px;
+          position: absolute;
+          top: 33px;
+          left: -1100px;
+        }
+        > .wangzhandaohang > .bigbox > .box1 {
+          margin: 10px auto;
+          border-right: 1px solid #eee;
+          > h2 {
+            position: relative;
+            left: -155px;
+          }
+          float: left;
+        }
+        > .wangzhandaohang > .bigbox > .box1 > ul {
+          width: 455px;
+          overflow-wrap: nowrap;
+          // height: 90px;
+          // border-right: 1px solid #eee;
+        }
+        > .wangzhandaohang > .bigbox > .box1 > ul > li {
+          > a {
+            color: #666;
+          }
+          > a:hover {
+            color: #f56a00;
+            text-decoration: underline;
+          }
+          width: 90px;
+          float: left;
+        }
+        > .wangzhandaohang:hover {
+          > .bigbox {
+            display: block;
+          }
+          > .b {
+            transition: transform 0.2s ease-in;
+            transform: rotate(180deg);
+            transform-origin: 50% 30%;
+          }
+        }
+        > .wangzhandaohang > .bigbox > .box1 {
+          > h2 {
+            font-size: 16px;
+            font-weight: 100;
+            color: #f56a00;
+          }
+        }
+        > .wangzhandaohang > .bigbox > .box2 {
+          margin: 10px auto;
+          border-right: 1px solid #eee;
+          > h2 {
+            position: relative;
+            left: -140px;
+          }
+          float: left;
+        }
+        > .wangzhandaohang > .bigbox > .box2 > ul {
+          width: 455px;
+          overflow-wrap: nowrap;
+        }
+        > .wangzhandaohang > .bigbox > .box2 > ul > li {
+          > a {
+            color: #666;
+          }
+          > a:hover {
+            color: #7da3e6;
+            text-decoration: underline;
+          }
+          width: 90px;
+          float: left;
+        }
+        > .wangzhandaohang > .bigbox > .box2 {
+          > h2 {
+            font-size: 16px;
+            font-weight: 100;
+            color: #7da3e6;
+          }
+        }
+        > .wangzhandaohang > .bigbox > .box3 {
+          // float: left;
+          // margin-top: 20px auto;
+          // margin-left: 900px;
+          > ul {
+            margin-top: 10px;
+            width: 200px;
+            > li {
+              > a {
+                color: gray;
+              }
+              > a:hover {
+                text-decoration: underline;
+              }
+              float: left;
+              width: 95px;
+            }
+            // overflow-wrap: nowrap;
+          }
+          > h2 {
+            position: relative;
+            top: 10px;
+            font-size: 16px;
+            font-weight: 100;
+            color: #9a9a9a;
+          }
+          float: left;
+        }
+        > li {
+          margin: 0 10px;
+          > a > img {
+            width: 16px;
+            height: 16px;
+          }
+          > a:hover {
+            color: red;
+          }
+          // > ul {
+          //   width: 100px;
+          //   display: none;
+          //   position: absolute;
+          //   top: 32px;
+          //   background-color: #fff;
+          //   z-index: 20;
+          //   border: 1px solid rgba(0, 0, 0, 0.3);
+          //   border-top: 0;
+          //   // left: 20px;
+          // }
+        }
+      }
+    }
+  }
+  > .second {
+    margin-top: 33px;
+    > .wrapper {
+      width: 1200px;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 30px;
+      > .img {
+        position: relative;
+        left: -250px;
+      }
+      > .sousuo {
+        position: relative;
+        top: 50px;
+        left: -600px;
+
+        > input {
+          width: 491px;
+          height: 36px;
+          border: 3px solid red;
+          color: gray;
+          position: absolute;
+          // top: 130px;
+          // left: 550px;
+          ~ button {
+            width: 132px;
+            height: 41px;
+            background-color: red;
+            color: white;
+            font-size: 18px;
+            font-weight: 700;
+            letter-spacing: 5px;
+            // margin-top: 42px;
+            // margin-right: 70px;
+            border: none;
+            position: absolute;
+            // top: 130px;
+            left: 497px;
+            > a {
+              color: white;
+            }
+          }
+        }
+        > input:focus {
+          // color: red;
+          outline-color: red;
+          border-color: red;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css" />
+    <link rel="stylesheet" href="reset.css" />
+    <script src="./js/jquery.js"></script>
+    <script src="./js/login.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="wrapper">
+        <div><img src="./img/登录/1.png" alt="" /></div>
+      </div>
+    </header>
+    <main>
+      <div class="wrapper">
+        <img src="./img/登录/2.png" alt="" />
+        <div class="login">
+          <ul class="qiehuan">
+            <li class="display">密码登录</li>
+            <li>短信登录</li>
+          </ul>
+          <div>
+            <form action="./interface/login.php" method="post">
+              <div class="user"><img src="./img/登录/人员.png" alt="" /></div>
+              <input type="text" class="username" name="username" />
+              <div class="clock"><img src="./img/登录/解锁.png" alt="" /></div>
+              <input type="password" class="password" name="password" />
+              <button type="submit">登录</button>
+            </form>
+          </div>
+
+          <ul class="right-bottom">
+            <li><a href="">忘记密码</a></li>
+            <li><a href="">忘记用户名</a></li>
+            <li><a href="">免费注册</a></li>
+          </ul>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
